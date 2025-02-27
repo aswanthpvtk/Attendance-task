@@ -24,7 +24,7 @@ const DashboardLayout = ({ children }) => {
         <nav className="mt-6">
           <SidebarLink to="/" icon={<Home size={20} />} label="Dashboard" collapsed={!sidebarOpen} />
           <SidebarLink to="/batches" icon={<Users size={20} />} label="Batches" collapsed={!sidebarOpen} />
-          <SidebarLink to="/attendance" icon={<ClipboardCheck size={20} />} label="Attendance" collapsed={!sidebarOpen} />
+          {/* <SidebarLink to="/attendance" icon={<ClipboardCheck size={20} />} label="Attendance" collapsed={!sidebarOpen} /> */}
           <SidebarLink to="/device" icon={<Monitor size={20} />} label="Device change" collapsed={!sidebarOpen} />
 
           {/* <SidebarLink to="/users" icon={<Users size={20} />} label="Users" collapsed={!sidebarOpen} />
